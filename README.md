@@ -6,7 +6,7 @@ A **bandgap reference circuit** is an essential analog building block used to ge
 
 
 
-CTAT CIRCUIT WITH CONSTANT CURRENT SOURCE
+# CTAT CIRCUIT WITH CONSTANT CURRENT SOURCE
 
 
 ![image](https://github.com/user-attachments/assets/59a860b9-f208-4829-9235-bb58213c2a69)
@@ -301,7 +301,7 @@ $$
 
 Finally, calculate the value of $R_2$:
 
-$$
+$$29
 R_2 \approx 4.14 \, \text{k}\Omega
 $$
 
@@ -311,10 +311,26 @@ Thus, the resistor $R_2$ should be approximately $4.14 \, \text{k}\Omega$.
 
 ## Bandgap Reference Circuit - Temperature Sweep
 ![image](https://github.com/user-attachments/assets/6ca6f83a-31eb-48e2-81b9-79442596ceac)
-
-
 This plot shows the temperature sweep from -45°C to 150°C in a Bandgap Reference (BGR) circuit designed using ASAP 7nm technology. The following voltages are displayed:
 
 - **Vref** (yellow): Exhibits a slight increase with temperature, representing its temperature-independent characteristic.
 - **Vctat** (red): Shows a negative temperature coefficient, decreasing as the temperature increases, indicating CTAT voltage behavior.
 - **Vref - Vctat** (blue): The difference between the two voltages increases with temperature, demonstrating the compensation between the PTAT and CTAT components in the BGR circuit.
+
+
+
+
+# Bandgap Reference Circuit - Key Parameters
+
+This table summarizes the key parameters and operating conditions of the designed Bandgap Reference Circuit. The table provides details on the output reference voltage (VBGP), supply voltage (VDD), supply current (IDD), and load resistance (RL) across different operating conditions such as temperature and supply variations.
+
+## Parameters Table
+| Parameter | Description             | Min      | Type   | Max      | Unit | Condition                               |
+|-----------|-------------------------|----------|--------|----------|------|-----------------------------------------|
+| Vref      | Output reference voltage |   293.127|        | 319.91  |mV | T= -45 to 150C, VDD=0.7v               |
+| Vref     | Output reference voltage | 1.11400  |        | 1.21933  | mV | VDD=2V to VDD=4V, T=27C                 |
+| VDD       | Supply Voltage           |          |   0.7 |          | V | T=-40C to 125C                          |
+| IDD       | Supply Current           |          | 20  | uA       |      |                                     |
+| R1        |  Resistance          |          | 18.6    | Kohm     |      | VDD=0.7V                        |
+| R2      |  Resistance          |          | 4.14    | Kohm     |      | VDD=0.7V                        |
+
