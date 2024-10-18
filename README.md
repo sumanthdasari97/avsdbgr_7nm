@@ -331,11 +331,11 @@ This table summarizes the key parameters and operating conditions of the designe
 | Vref      | Output reference voltage |   303.125|        | 325  |mV | T= -45 to 150C, VDD=0.7v               |
 | Vref     | Output reference voltage |   308.596|        |  664.035 | mV | VDD=0.7V to VDD=1.4V                 |
 | VDD       | Supply Voltage           |          |   0.7 |          | V | T=-40C to 125C                          |
-| IDD       | Supply Current           |          | 20  | uA       |      |                                     |
-| R1        |  Resistance          |          | 18.6    | Kohm     |      | VDD=0.7V                        |
-| R2      |  Resistance          |          | 4.14    | Kohm     |      | VDD=0.7V                        |
-|     $\frac{dV_{CTAT}}{dT}\$  |  Derivative of CTAT Voltage          |          | -231.1275   | $\mu V/K$     |      | VDD=0.7V                        |
-|     $\frac{dV_{PTAT}}{dT}\$  |  Derivative of PTAT Voltage          |          | 453.158| $\mu V/K$     |      | VDD=0.7V                        |
+| IDD       | Supply Current           |          | 20  |       |    uA   |                                     |
+| R1        |  Resistance          |          | 18.6    |      |   Kohm   | VDD=0.7V                        |
+| R2      |  Resistance          |          | 4.14    |      |  Kohm    | VDD=0.7V                        |
+|     $\frac{dV_{CTAT}}{dT}\$  |  Derivative of CTAT Voltage          |          | -231.1275   |      |  $\mu V/K$    | VDD=0.7V                        |
+|     $\frac{dV_{PTAT}}{dT}\$  |  Derivative of PTAT Voltage          |          | 453.158|      |    $\mu V/K$  | VDD=0.7V                        |
 |     $\alpha\$  | coefficient that determines the relative contribution of $V_{PTAT}$ and $V_{CTAT}$ to the final reference voltage $V_{ref}$        |          | 0.5100373|     |      | VDD=0.7V|
 
 
