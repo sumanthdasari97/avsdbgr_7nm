@@ -21,7 +21,7 @@ This schematic shows a **CTAT voltage generator** circuit, designed using the AS
 ### Key Components:
 - **VCTAT**: The output voltage, which exhibits CTAT behavior, meaning it decreases as temperature rises.
 - **V1**: A constant voltage source of 0.7V applied across an n-channel FinFET (`nfet7`).
-- **I1**: A constant current source of 10 µA, which biases the transistor `nfet7`.
+- **I1**: A constant current source of 20 µA, which biases the transistor `nfet7`.
 
 ### Transistor:
 - **nfet7**: The n-channel FinFET used to generate the CTAT voltage. The gate-source voltage of this transistor is temperature-dependent, and as temperature increases, the threshold voltage decreases, causing the gate-source voltage (and thus `VCTAT`) to decrease. This is what creates the CTAT characteristic.
@@ -253,13 +253,13 @@ $$
 $$
 
 From the graphs of $V_{CTAT}$ and $V_{PTAT}$, we approximate the following derivatives:
-- $\frac{dV_{CTAT}}{dT} \approx -231.1275 \, \u V/K$
-- $\frac{dV_{PTAT}}{dT} \approx 453.158 \, \u V/K$
+- $\frac{dV_{CTAT}}{dT} \approx -231.1275 \, \mu V/K$
+- $\frac{dV_{PTAT}}{dT} \approx 453.158 \, \mu V/K$
 
 Substituting these values into the equation for $\alpha$:
 
 $$
-\alpha = - \frac{-231.1275 \, \u V/K}{453.158\, \u V/K} \approx 0.5100373
+\alpha = - \frac{-231.1275 \, \mu V/K}{453.158\, \mu V/K} \approx 0.5100373
 $$
 
 ## 2. **Relationship Between Alpha and Resistor Values**
