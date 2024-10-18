@@ -336,7 +336,6 @@ This table summarizes the key parameters and operating conditions of the designe
 | R2      |  Resistance          |          | 4.14    | Kohm     |      | VDD=0.7V                        |
 |     $\frac{dV_{CTAT}}{dT}\$  |  Derivative of CTAT Voltage          |          | -231.1275   | $\mu V/K$     |      | VDD=0.7V                        |
 |     $\frac{dV_{PTAT}}{dT}\$  |  Derivative of PTAT Voltage          |          | 453.158| $\mu V/K$     |      | VDD=0.7V                        |
-
 |     $\alpha\$  | coefficient that determines the relative contribution of $V_{PTAT}$ and $V_{CTAT}$ to the final reference voltage V_{ref}        |          | 0.5100373|     |      | VDD=0.7V|
 
 
