@@ -301,7 +301,7 @@ $$
 
 Finally, calculate the value of $R_2$:
 
-$$29
+$$
 R_2 \approx 4.590 \, \text{k}\Omega
 $$
 
