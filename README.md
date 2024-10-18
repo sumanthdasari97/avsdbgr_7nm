@@ -327,7 +327,7 @@ This table summarizes the key parameters and operating conditions of the designe
 ## Parameters Table
 | Parameter | Description             | Min      | Type   | Max      | Unit | Condition                               |
 |-----------|-------------------------|----------|--------|----------|------|-----------------------------------------|
-| Vref      | Output reference voltage |   293.127|        | 319.91  |mV | T= -45 to 150C, VDD=0.7v               |
+| Vref      | Output reference voltage |   303.125|        | 325  |mV | T= -45 to 150C, VDD=0.7v               |
 | Vref     | Output reference voltage |   |        |   | mV | VDD=2V to VDD=4V, T=27C                 |
 | VDD       | Supply Voltage           |          |   0.7 |          | V | T=-40C to 125C                          |
 | IDD       | Supply Current           |          | 20  | uA       |      |                                     |
