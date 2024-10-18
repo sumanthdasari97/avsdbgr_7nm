@@ -151,10 +151,10 @@ $$
 3. Calculate \( R \):
 
 $$
-R1 \approx \frac{0.37422 \, \text{V}}{20 \times 10^{-6} \, \text{A}} = 18611 \, \Omega \approx 18.6 \, k\Omega
+R1 \approx \frac{0.37422 \, \text{V}}{20 \times 10^{-6} \, \text{A}} = 18711 \, \Omega \approx 18.7\, k\Omega
 $$
 $$
-Thus, the required resistor value \( R1 \) is approximately 18.6 \, k\Omega
+Thus, the required resistor value \( R1 \) is approximately 18.7 \, k\Omega
 $$
 
 # Bandgap Reference (BGR) with Startup Circuit and Current Mirror
@@ -253,13 +253,13 @@ $$
 $$
 
 From the graphs of $V_{CTAT}$ and $V_{PTAT}$, we approximate the following derivatives:
-- $\frac{dV_{CTAT}}{dT} \approx -380 \, \mu V/K$
-- $\frac{dV_{PTAT}}{dT} \approx 820 \, \mu V/K$
+- $\frac{dV_{CTAT}}{dT} \approx -231.1275 \, \u V/K$
+- $\frac{dV_{PTAT}}{dT} \approx 453.158 \, \u V/K$
 
 Substituting these values into the equation for $\alpha$:
 
 $$
-\alpha = - \frac{-380 \, \mu V/K}{820 \, \mu V/K} \approx 0.463
+\alpha = - \frac{-231.1275 \, \u V/K}{453.158\, \u V/K} \approx 0.5100373
 $$
 
 ## 2. **Relationship Between Alpha and Resistor Values**
@@ -272,7 +272,7 @@ $$
 
 Where:
 - $N$ is the current ratio (typically $N = 8$ in this case).
-- $R_1$ is the known resistor value ($R_1 = 18.6 \, \text{k}\Omega$).
+- $R_1$ is the known resistor value ($R_1 = 18.7 \, \text{k}\Omega$).
 - $R_2$ is the unknown resistor value that we want to calculate.
 
 Rearranging the equation to solve for $R_2$:
@@ -284,7 +284,7 @@ $$
 Substituting the known values:
 
 $$
-R_2 = 0.463 \cdot 18.6 \, \text{k}\Omega \cdot \frac{1}{\ln(8)}
+R_2 = 0.5100373 \cdot 18.7 \, \text{k}\Omega \cdot \frac{1}{\ln(8)}
 $$
 
 First, calculate $\ln(8)$:
@@ -296,16 +296,16 @@ $$
 Now, substitute this into the equation:
 
 $$
-R_2 = 0.463 \cdot 18.6 \, \text{k}\Omega \cdot \frac{1}{2.079}
+R_2 = 0.5100373 \cdot 18.7 \, \text{k}\Omega \cdot \frac{1}{2.079}
 $$
 
 Finally, calculate the value of $R_2$:
 
 $$29
-R_2 \approx 4.14 \, \text{k}\Omega
+R_2 \approx 4.590 \, \text{k}\Omega
 $$
 
-Thus, the resistor $R_2$ should be approximately $4.14 \, \text{k}\Omega$.
+Thus, the resistor $R_2$ should be approximately $4.59 \, \text{k}\Omega$.
 
 
 
