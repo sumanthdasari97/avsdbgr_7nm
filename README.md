@@ -24,7 +24,7 @@ This table summarizes the key parameters and operating conditions of the designe
 
 
 # CTAT CIRCUIT WITH CONSTANT CURRENT SOURCE
-The shcematic can be found here \-[sch_file](xschem\circuits\CTAT_IDEAL_CURRENT_SOURCE.sch)
+The shcematic can be found here \-[sch_file](xschem\Circuits\CTAT_IDEAL_CURRENT_SOURCE.sch)
 
 ![image](https://github.com/user-attachments/assets/59a860b9-f208-4829-9235-bb58213c2a69)
 **Figure : CTAT Voltage Generator Circuit**  
