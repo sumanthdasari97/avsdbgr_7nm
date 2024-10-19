@@ -336,7 +336,16 @@ This plot shows the temperature sweep from -45°C to 150°C in a Bandgap Referen
 
 - **Vref** (yellow): Exhibits a slight increase with temperature, representing its temperature-independent characteristic.
 - **Vctat** (red): Shows a negative temperature coefficient, decreasing as the temperature increases, indicating CTAT voltage behavior.
-- **Vref - Vctat** (blue): The difference between the two voltages increases with temperature, demonstrating the c the PTAT  components in the BGR circuit.
+- **Vref - Vctat** (blue): The difference between the two voltages increases with temperature, demonstrating  the PTAT  components in the BGR circuit.
+
+
+## Acknowledgements
+
+I would like to express my sincere gratitude to:
+
+- **[Kunal Gosh]**, for their invaluable guidance and support throughout the design and simulation of this Bandgap Reference Circuit.
+- **[Dr Skandha Deepsita S]**, for their invaluable guidance and support throughout the design and simulation of this Bandgap Reference Circuit.
+- **Tool Providers**: Special thanks to the developers of **Ngspice**, **Xschem**, and the **ASAP7 PDK**, which were crucial for simulation and design.
 
 
 
