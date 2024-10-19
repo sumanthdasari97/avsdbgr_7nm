@@ -67,7 +67,7 @@ Voltage decreases with decrease in current values
 
 ## Overview
 PTAT (Proportional to Absolute Temperature) voltage is a key component in many temperature-compensated circuits, such as **bandgap reference circuits**. As the name suggests, PTAT voltage increases linearly with temperature, making it an essential element in canceling temperature-dependent variations in circuits.
-
+The shcematic can be found here \-[sch_file](xschem/Circuits/PTAT_IDEAL_CURRENT_SOURCE.sch)
 ![image](https://github.com/user-attachments/assets/62868d50-e512-4c97-88b8-17a4f9bcb736)
 **Figure : PTAT Voltage Generator Circuit**  
 This schematic illustrates the basic configuration of a PTAT generator. 
