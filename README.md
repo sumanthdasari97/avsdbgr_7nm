@@ -342,10 +342,10 @@ This plot shows the temperature sweep from -45°C to 150°C in a Bandgap Referen
 ## Acknowledgements
 
 I would like to express my sincere gratitude to:
-**[Kunal Gosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)**,
-- **Kunal Gosh(https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)**for their invaluable guidance and support throughout the design and simulation of this Bandgap Reference Circuit.
-- **Dr Skandha Deepsita S**,for their invaluable guidance and support throughout the design and simulation of this Bandgap Reference Circuit.
-- **Jossan Eleazar B**, for their invaluable guidance and support throughout the design and simulation of this Bandgap Reference Circuit.
+- **[Kunal Gosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)**,Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
+- **[Dr Skandha Deepsita S](https://www.linkedin.com/in/dr-skandha-deepsita-s-027433ba/)**,Physical Design Consultant, VLSI System Design (VSD) Corp. Pvt. Ltd.
+- **[Jossan Eleazar B](https://www.linkedin.com/in/jossan-eleazar-b-79809a25a/)**,Ex- ASIC engineer at Meister-gen Technologies
+- for their invaluable guidance and support throughout the design and simulation of this Bandgap Reference Circuit.
 - **Tool Providers**: Special thanks to the developers of **Ngspice**, **Xschem**, and the **ASAP7 PDK**, which were crucial for simulation and design.
 
 
