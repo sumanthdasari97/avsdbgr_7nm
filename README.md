@@ -52,7 +52,8 @@ The **CTAT voltage** behavior is primarily due to the **temperature dependence o
 
 
 ### vctat vs temp from -20 to 125
-![Screenshot from 2024-10-09 05-28-24](https://github.com/user-attachments/assets/e148d40c-b131-4cd0-bfb3-d30f767bd584)
+![image](https://github.com/user-attachments/assets/752546e0-5549-4ebc-ad39-ba46139f8503)
+
 voltage  that decreases with an increase in temperature
 
 
