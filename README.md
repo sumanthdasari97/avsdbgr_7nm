@@ -245,7 +245,8 @@ Where:
 
 By adjusting the value of $\alpha$, the temperature coefficient of the reference voltage can be minimized, providing a stable reference voltage over a wide temperature range.
 The shcematic can be found here \-[sch_file](xschem/Circuits/BGR_Current_mirror.sch)
-![image](https://github.com/user-attachments/assets/1e5e2826-7136-4f69-bfea-0f160eeac7d1)
+![image](https://github.com/user-attachments/assets/24e73494-f067-45d8-bc5f-d3e87b39ada4)
+
 
 **Figure** This schematic illustrates the Final Circuit of the Band Gap Reference Circuit 
 
