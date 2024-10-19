@@ -120,6 +120,7 @@ In this PTAT circuit, a **self-biased current mirror** made of MOSFETs is used t
 2. **PTAT Voltage Across Resistor**: The PTAT current flowing through the resistor produces a voltage drop across it. This voltage is **PTAT in nature** because the current through the resistor increases proportionally with temperature. The voltage across the resistor \( V_R \) is given by Ohm's Law:
 
 
+The shcematic can be found here \-[sch_file](xschem/Circuits/PTAT_Current_Mirror.sch)
 ![image](https://github.com/user-attachments/assets/017c8c48-3442-4272-8675-ff7994aa3761)
 
 **Figure** This schematic illustrates the Current Mirror Configuration of a PTAT generator.
@@ -243,7 +244,7 @@ Where:
 - $\alpha \cdot V_{PTAT}$ is the proportional voltage, increasing with temperature.
 
 By adjusting the value of $\alpha$, the temperature coefficient of the reference voltage can be minimized, providing a stable reference voltage over a wide temperature range.
-
+The shcematic can be found here \-[sch_file](xschem/Circuits/BGR_Current_mirror.sch)
 ![image](https://github.com/user-attachments/assets/1e5e2826-7136-4f69-bfea-0f160eeac7d1)
 
 **Figure** This schematic illustrates the Final Circuit of the Band Gap Reference Circuit 
