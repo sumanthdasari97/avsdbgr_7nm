@@ -326,7 +326,7 @@ This plot shows the temperature sweep from -45°C to 150°C in a Bandgap Referen
 This table summarizes the key parameters and operating conditions of the designed Bandgap Reference Circuit. The table provides details on the output reference voltage (VBGP), supply voltage (VDD), supply current (IDD), and load resistance (RL) across different operating conditions such as temperature and supply variations.
 
 ## Parameters Table
-| Parameter | Description             | Min      | Type   | Max      | Unit | Condition                               |
+| Parameter | Description             | Min      | Value  | Max      | Unit | Condition                               |
 |-----------|-------------------------|----------|--------|----------|------|-----------------------------------------|
 | Vref      | Output reference voltage |   303.125|        | 325  |mV | T= -45 to 150C, VDD=0.7v               |
 | Vref     | Output reference voltage |   308.596|        |  664.035 | mV | VDD=0.7V to VDD=1.4V                 |
