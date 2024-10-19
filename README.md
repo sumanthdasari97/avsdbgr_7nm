@@ -82,7 +82,7 @@ The PTAT voltage is obtained as the **difference between V1 and V2**. The mechan
 
 ![image](https://github.com/user-attachments/assets/d9ca73c6-6d7a-4cf7-88b0-dcb9735ac1a8)
 
-**Figure:** The plot of \( V_1 - V_2 \) across temperature sweep from -50°C to 150°C. This represents the PTAT voltage, which is proportional to absolute temperature, demonstrating the linear behavior expected in PTAT circuits.
+**Figure:** The plot of \( V_1 - V_2 \) across temperature sweep from -25°C to 125°C. This represents the PTAT voltage, which is proportional to absolute temperature, demonstrating the linear behavior expected in PTAT circuits.
 
 ## PTAT (Proportional to Absolute Temperature) Circuit with Self-Biased Current Mirror Using MOSFETs
 
