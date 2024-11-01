@@ -339,6 +339,85 @@ This plot shows the temperature sweep from -45°C to 150°C in a Bandgap Referen
 - **Vref - Vctat** (blue): The difference between the two voltages increases with temperature, demonstrating  the PTAT  components in the BGR circuit.
 
 
+
+# ASAP7 N-FinFET Layout
+
+This repository contains detailed, step-by-step instructions for manually creating an N-FinFET layout in ASAP 7nm technology. This guide includes specific layer details, dimensions in micrometers (µm), and design rule checks to ensure compliance.
+
+## Layout Specifications
+
+- **Technology Node**: ASAP 7nm
+- **Fin Count**: 14
+- **Fin Pitch**: 0.027 µm
+- **Fin Width**: 0.007 µm
+
+## Setup and Tools
+
+- **KLayout**: Used for layout creation and verification.
+- **Grid**: Set the grid in KLayout to 0.001 µm (1 nm) for precision.
+
+## Step-by-Step Layout Instructions
+
+### Step 1: Set Up KLayout Grid
+1. Open KLayout.
+2. Set the grid size to **0.001 µm** (1 nm) under `View > Show Grid > Configure Grid`.
+3. This will allow precise placement of each element.
+
+### Step 2: Draw the Active Area (RX Layer)
+- **Layer**: RX (Active Area)
+- **Orientation**: Horizontal rectangle
+- **Width**: `(number of fins - 1) * fin pitch + fin width`
+  - Example: For 14 fins with a 0.027 µm pitch and 0.007 µm fin width:
+  - **Width** = `(14 - 1) * 0.027 µm + 0.007 µm = 0.364 µm`
+- **Height**: 0.1 µm
+- **Placement**: Center horizontally in the layout area.
+![image](https://github.com/user-attachments/assets/2f60456b-ed95-4032-b76f-d93ae5bc6f30)
+
+
+
+### Step 3: Draw Individual Fins (Fin Layer)
+- **Layer**: Fin Layer
+- **Orientation**: Vertical lines inside the RX layer
+- **Width**: 0.007 µm
+- **Pitch**: 0.027 µm
+- **Quantity**: 14 fins
+- **Placement**: Start at the left edge of the RX layer with 0.027 µm spacing.
+![image](https://github.com/user-attachments/assets/4e935fa9-0f4d-4501-a110-8c03b16ee710)
+
+
+### Step 4: Draw the Gate (PC Layer)
+- **Layer**: PC (Polysilicon Gate)
+- **Orientation**: Horizontal line intersecting the fins
+- **Width (Gate Length)**: 0.02 µm
+- **Height**: Extend across the RX layer, covering the fin region.
+- **Extension Beyond RX**: Extend by approximately 0.010 µm on each side for alignment with ASAP 7nm design rules.
+![image](https://github.com/user-attachments/assets/97a444fa-8e11-44d4-b956-0ac966dfb5aa)
+
+
+### Step 5: Source and Drain Contacts (CA Layer)
+- **Layer**: CA (Contact Area)
+- **Shape**: Square contact on each side of the fin region
+- **Size**: 0.027 µm x 0.027 µm
+- **Placement**: Place at each end of the RX layer to form source and drain terminals.
+
+![image](https://github.com/user-attachments/assets/7fb5beb0-169e-4190-b457-d900ee048af4)
+
+
+### Step 6: Draw Metal 1 (M1 Layer) Connections
+- **Layer**: M1 (First Metal Layer)
+- **Orientation**: Horizontal rectangle connecting source and drain contacts
+- **Width**: Cover the width of the source and drain contacts
+- **Height**: Ensure it fully covers each CA contact.
+- **Placement**: Positioned above and below the fin region to connect all source and drain contacts.
+
+![image](https://github.com/user-attachments/assets/6a6e48f4-fd1a-4a4a-8f8b-e70de2c5c49d)
+
+
+
+![image](https://github.com/user-attachments/assets/192e3f18-cb2e-4ba7-a1b6-14dfb2e237a2)
+
+
+
 ## Acknowledgements
 
 I would like to express my sincere gratitude to:
