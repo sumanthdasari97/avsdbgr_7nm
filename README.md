@@ -416,7 +416,17 @@ This repository contains detailed, step-by-step instructions for manually creati
 
 ![image](https://github.com/user-attachments/assets/192e3f18-cb2e-4ba7-a1b6-14dfb2e237a2)
 
+## P-FinFET Modifications
 
+For constructing a P-FinFET, please note the following changes:
+
+- **Well Layer**: Use **NWELL** 
+   - **NWELL** should enclose the RX active region with a spacing  on each side.
+  
+- **Active Region Dimensions**: Similar RX dimensions apply, but ensure the layout aligns with **p-type device characteristics**.
+
+- **Other Layers** (Gate, FIN, CA): These remain the same as in the N-FinFET instructions, but confirm layer polarity and connections as per P-FinFET design.
+![Screenshot from 2024-11-01 18-33-55](https://github.com/user-attachments/assets/e64f94f1-4cc1-4dbc-b3ba-ba5bdb176430)
 
 ## Acknowledgements
 
